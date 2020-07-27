@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+h1{
+    text-align: center;
+}
+.dropdown-menu a {
+    color: black !important;
+}
+
+.navbar-nav>li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media (max-width: 992px) {
+    .dropdown-menu a {
+        color: black !important;
+    }
+
+    .navbar-nav>li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .dropdown-menu a {
+        color: black !important;
+    }
+    .navbar-nav>li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .dropdown-menu a {
+        color: black !important;
+    }
+    .navbar-nav>li {
+        padding-left: 20px;
+        padding-right: 20px;
+}
+    
+}
+
+
