@@ -3,43 +3,79 @@
 h1{
     text-align: center;
 }
-.dropdown-menu a {
-    color: black !important;
-}
 
 .navbar-nav>li {
     padding-left: 20px;
     padding-right: 20px;
 }
-@media (max-width: 992px) {
-    .dropdown-menu a {
-        color: black !important;
-    }
-
-    .navbar-nav>li {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+.dropdown-menu a {
+    color: black !important;
 }
-@media (max-width: 768px) {
-    .dropdown-menu a {
-        color: black !important;
-    }
-    .navbar-nav>li {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+/*social media styling*/
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color:#55acee ;
+}
+.fa-youtube{
+    color: #cd201f;
+}
+.fa-instagram{
+    color: #3f729b;
+}
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-twitter:hover,
+.fa-facebook:hover
+{
+    color: #d5d5d5;
+}
+/*footer styling*/
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    
+}
+footer a{
+    color: #d5d5d5;
+}
+
+hr.light-100{
+     border-top: 1px solid #d5d5d5;
+     width: 100%;
+     margin-top: 0.8rem;
+     margin-bottom: 1rem;
+     
 }
 
 @media (max-width: 576px) {
-    .dropdown-menu a {
-        color: black !important;
+}
+
+
+@media (max-width: 768px) {
+}
+
+
+@media (max-width: 992px) {
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
     }
-    .navbar-nav>li {
-        padding-left: 20px;
-        padding-right: 20px;
 }
-    
-}
+
+
+
 
 
