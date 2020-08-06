@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
-h1{
-    text-align: center;
+.size{
+    max-height:470;
+    max-width:780;
+    opacity: 0.3;
 }
-.navbar{
-    background-color:brown !important;
-    
-    font-size: 16px;
+.Heading {
+    text-align: center;
+    text-decoration:underline;
+}
+.connect{
+    border: solid black;
 }
 .navbar-nav>li {
     padding-left: 20px;
@@ -27,8 +30,8 @@ h1{
 
 /*social media styling*/
 .social a{
-    font-size: 4.5em;
-    padding: 3rem;
+    font-size: 2.5em;
+    padding: 1.5rem;
 }
 .fa-facebook{
     color: #3b5998;
@@ -47,8 +50,9 @@ h1{
 .fa-twitter:hover,
 .fa-facebook:hover
 {
-    color: #d5d5d5;
+    color:maroon;
 }
+
 /*footer styling*/
 footer{
     background-color: #3f3f3f;
