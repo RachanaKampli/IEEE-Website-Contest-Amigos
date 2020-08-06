@@ -5,13 +5,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Complete Bootstrap 4 Website Layout</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+	
+	
 </head>
 
 <body>
@@ -19,7 +18,7 @@
 	<h1>IEEE KLS Gogte Institute of Technology</h1>
 
 	<!-- NAVIGATION BAR -->
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-md navbar-light sticky-top" >
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#"><img src=""></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -27,30 +26,21 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#" class="active">HOME</a></li>
 				
-				<div class="dropdown">
-					<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">About
-						<span class="caret"></span></button>
-					<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-						<li role="presentation"><a role="menuitem" href="#">History of IEEE</a></li>
-						<li role="presentation"><a role="menuitem" href="#">IEEE at GIT</a></li>
-						<li role="presentation"><a role="menuitem" href="#">Staff Panel</a></li>
-						<li role="presentation"><a role="menuitem" href="#">Student Panel</a></li>
-					</ul>
-				</div>
-				<li class="nav-item"><a class="nav-link" href="#">Achievments</a></li>
-				<div class="dropdown">
-					<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Events
-						<span class="caret"></span></button>
-					<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-						<li role="presentation"><a role="menuitem" href="#">SLP</a></li>
-						<li role="presentation"><a role="menuitem" href="#">Udaan</a></li>
-					</ul>
-				</div>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">History of IEEE</a>
+							<a class="dropdown-item" href="#">IEEE at GIT</a>
+							<a class="dropdown-item" href="#">Team</a>
+						</div>
+							      </li>
+				<li class="nav-item"><a class="nav-link" href="achieve.html">ACHIEVMENTS</a></li>
 				
-				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Membership</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">EVENTS</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">MEMBERSHIP</a></li>
 				
 			</ul>
 		</div>
@@ -58,22 +48,35 @@
 	</div>
 
 </nav>
-<!-- notification box-->
-<div class="content">
-	<h1 class="header" align="center">Notifications</h1>
-	<marquee behavior="scroll" direction="up" scrollamount="2"
-		onmouseover="this.setAttribute('scrollamount',0,0);this.stop()"
-		onmouseout="this.setAttribute('scrollamount',2,0);this.start()" class="moving-body">
-		<script>
-			document.write('<p class="m-par">sdfghjk gghjkl</p>')
-			document.write('<p class="m-par">sdfghjk gghjkl</p>')
-			document.write('<p class="m-par">sdfghjk gghjkl</p>')
-			document.write('<p class="m-par">sdfghjk gghjkl</p>')
-		</script>
-	</marquee>
-</div>
 
-	<!--- Image Slider -->
+
+
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="/images/git_logo.jpg" alt="image1">
+		</div>
+		<div class="carousel-item ">
+			<img src="/images/git_logo.jpg" alt="image2">
+		</div>
+		<div class="carousel-item">
+			<img src="/images/logo.jpg" alt="image3">
+		</div>
+	</div>
+</div>
+	
+	
+
+
+<!-- event page-->
 
 
 	<!--- Jumbotron -->
@@ -107,7 +110,7 @@
 	<div class="container-fluid padding">
 		<div class="row text-center padding">
 			<div class="col-12">
-				<h2>Connect</h2>
+				<h2>Follow Us</h2>
 			</div>
 			<div class="col-12 social padding">
 				<a href="#"><i class="fab fa-facebook"></i></a>
@@ -147,7 +150,15 @@
 	</div>
 </div>
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
 
 
 </body>
