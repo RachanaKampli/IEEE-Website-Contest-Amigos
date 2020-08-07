@@ -14,10 +14,20 @@
 .navbar-nav>li {
     padding-left: 20px;
     padding-right: 20px;
+    color: white;
+    
 }
-.dropdown-menu a {
+.dropdown-menu a{
+    
     color: black !important;
+    }
+
+.carousel-inner img{
+    width: 80%;
+    height: 100%;
+    padding-left: 40%;
 }
+
 /*social media styling*/
 .social a{
     font-size: 2.5em;
@@ -68,31 +78,7 @@ hr.light-100{
      
 }
 /* Notification Box Styling */
-.content {
-    width: 300px;
-    margin: 100px 20px;
-    box-shadow: 1px 1px 10px 2px #333;
-    border-radius: 5px;
-    overflow: hidden;
-}
 
-.header {
-    background-color: grey;
-    color: black;
-    padding: 15px 0px;
-
-}
-
-.moving-body {
-    padding: 4px;
-    height: 300px;
-}
-
-.m-par {
-    text-align: center;
-    padding: 4px;
-    border-bottom: 1px solid #afafaf;
-}
 
 @media (max-width: 576px) {
 }
