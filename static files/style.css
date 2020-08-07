@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-.size{
-    max-height:470;
-    max-width:780;
-    opacity: 0.3;
-}
+
 .Heading {
     text-align: center;
     text-decoration:underline;
@@ -25,8 +21,8 @@
 
 /*social media styling*/
 .social a{
-    font-size: 2.5em;
-    padding: 1.5rem;
+    font-size: 1.5em;
+    padding: 0.5rem;
 }
 .fa-facebook{
     color: #3b5998;
@@ -49,6 +45,7 @@
 }
 
 /*footer styling*/
+/* footer */
 footer{
     background-color: #3f3f3f;
     color: #d5d5d5;
@@ -61,6 +58,7 @@ hr.light{
     margin-bottom: 1rem;
     
 }
+
 footer a{
     color: #d5d5d5;
 }
@@ -72,37 +70,9 @@ hr.light-100{
      margin-bottom: 1rem;
      
 }
-.carouselstyle{
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-right: 0.5rem;
-    padding-left: 10rem;
-   
 
-    
+.col-md-6 p{
+    padding: 1px;
+    margin:1px;
+    text-align: left;
 }
-.carousel-inner img{
-    width: 100%;
-    height: 50%;
-}
-
-
-@media (max-width: 576px) {
-}
-
-
-@media (max-width: 768px) {
-}
-
-
-@media (max-width: 992px) {
-    .social a{
-        font-size: 4em;
-        padding: 2rem;
-    }
-} */
-
-
-
-
-
