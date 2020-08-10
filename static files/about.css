@@ -14,14 +14,14 @@ img{
   margin-bottom: 10px;
   border: solid whitesmoke;
 }
-.img{
+/*.img{
   float: left;
   width: 400px;
   height: 300px;
   margin-left: 10px;
   margin-bottom: 10px;
   border: solid gainsboro;
-}
+}*/
 p{
     text-align: justify;
     text-justify: auto;
