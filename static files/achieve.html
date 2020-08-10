@@ -76,17 +76,23 @@
   
 
   <div class="container">
-    <h2> Achievements</h2>
+    <h2>Achievements</h2>
     <ul>
-      <li> One of the oldest student branches of North Karnataka region with an history of over two decades. </li>
-      <li> Global IEEE had allotted funds to conduct the “star program” in the year 2014-2015 for being one of the most
-        active chapter in the region, using these funds we conducted motivational events in rural areas (i.e. the
-        government schools). </li>
-      <li> For the year 2015-2016 Vardhana Kulkarni and Pranali Shinde from KLS GIT were selected as representatives for
-        North Karnataka region.</li>
-      <li> Student Branch got seed amount in 2015-16 for IEEE Star program.</li>
-      <li> Three of our professors Dr. D.V.Kulkarni, Dr. V P Gejji and Prof. N.F.Deshpande were elected as senior members
-        of IEEE</li>
+      <li>Faculty from E&C Engg. and Computer Science Engg. Dept. came together, formed a group to access and submit technical papers in IEEE. the group then took membership in this professional body in 1980’s.
+      </li>
+      <li>To provide a common platform to faculties, researchers and students, institute had organised GITCON in 1990’s. This initiated activities under the name of Technical Chapter of IEEE in the academic year 1995-96.</li>
+      <li>The MGA (Member and Geographic Activities) under IEEE officially approved formation of a professional student branch of KLS’s Gogte Institute of Technology in the year 2003. The IEEE Student Branch of Gogte Institute of Technology got its certificate dated 17th June 2003. This was the first Professional Student Chapter of the Institute.</li>
+      <li>Since 2003, the student branch is an active professional body serving the IEEE community and the faculty and students of the institute. The student branch has successfully organised Student Symposiums named INFINITY in 2004 and PAANCHAJANYA (student branch’s technical annual flagship event) since 2006 till date.</li>
+    </ul>
+    <ul>
+      <span id="dots">...</span><span id="more">
+      <li>In the academic year 2014-15, the student branch received a grant of $300 from IEEE Headquarters under the STAR Program. This was for the events conducted for rural and urban school girls, to motivate them to take up science and engineering for a career.</li>
+      <li>In the year 2015, the student branch celebrated 3 decades of its association with IEEE along with completing 2 decades of holding the first technical conference in the institute, and also celebrated a decade (10 years) of organising PAANCHAJANYA which became a popular name in the region and few cities of the neighbouring states. The event marked felicitating the pioneers of the institute who initiated IEEE professional activities: Dr. D. H. Rao; Shri. Hemant Kamat; Dr. R. V. Kulkarni; Dr. G. R. Udupi and Prof. Vineeta P. Gejji.
+      </li>
+      <li>In the year 2016, Student branch of KLS’s Gogte Institute of Technology hosted the first North Karnataka Student Young Professional and WIE Congress (NKSYWC).</li>
+      <li>Three professional members of the student branch, Prof. Vineeta P. Gejji; Dr. N. S. Sirdeshpande; Dr. D. B. Kulkarni have been elevated as SENIOR MEMBER to appreciate their contributions to IEEE.</li>
+      </span>
+      <button onclick="myFunction()" id="myBtn">Read more</button>
     </ul>
   </div>
 
@@ -143,6 +149,27 @@
 			</div>
 		  </div> -->
   </footer>
+
+  <!--myFunction script-->
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+    
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
