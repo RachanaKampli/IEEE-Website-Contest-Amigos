@@ -76,4 +76,29 @@ hr.light-100{
     margin:1px;
     text-align: left;
 }
+.card-body{
+   background-color: #f7dcda;
+}
+.card-title{
+    text-align: center;
+}
+
+.carousel-inner img{
+    width: 100%;
+    
+}
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit:cover;
+}
+
+@media (max-width: 576px) {
+    .card{
+        padding-top: 0.2rem;
+    }
+}
 
