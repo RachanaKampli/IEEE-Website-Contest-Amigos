@@ -24,7 +24,7 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #aba09f;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -32,4 +32,8 @@ button {
 }
 button:hover, a:hover {
   opacity: 0.7;
+}
+
+img{
+  opacity:0.3;
 }
