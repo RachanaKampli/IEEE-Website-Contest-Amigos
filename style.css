@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
+body {
+  background-color: #faf5f5;
+}
 .Heading {
     text-align: center;
     text-decoration:underline;
