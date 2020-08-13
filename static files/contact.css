@@ -1,24 +1,31 @@
-@media screen and (max-width: 560px)
-#main .colum-wide{
-    display: block;
-    float: none;
-    width: 100%;
+
+@media screen and (max-width: 560px) {
+    #main .colum-wide {
+        display: block;
+        float: none;
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 760px)
-#main .colum-wide{
-    order: 1;
+
+@media screen and (max-width: 760px){
+    #main .colum-wide {
+        order: 1;
+    }
+
+    #main .column-last {
+        margin-right: 0;
+    }
+
+    #main .column {
+        display: inline;
+        
+    }
 }
-#main .column-last{
-    margin-right: 0;
-}
-#main .column{
-    display: inline;
-    float: left;
-}
+
 
 .content-block{
-    background-color: white;
+    background-color:#faf5f5;
     margin-bottom: 20px;
     padding: 30px;
     box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.05);
@@ -32,10 +39,12 @@ h1{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-@media screen and (max-width: 768px)
-h1.post-title{
-    font-size: 22px;
+@media screen and (max-width: 768px){
+    h1.post-title {
+        font-size: 22px;
+    }
 }
+
 h1.post-title{
     text-align: center;
     color: black;

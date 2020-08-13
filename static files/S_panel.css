@@ -5,6 +5,9 @@ h2{
     background-color: lavender;
     text-align: center;
 }
+body {
+  background-color: #faf5f5;
+}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
