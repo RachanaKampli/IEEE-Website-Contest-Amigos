@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.Heading {
+    text-align: center;
+    text-decoration:underline;
+}
+.connect{
+    border: solid black;
+}
+.navbar-nav>li {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    
+}
+.dropdown-menu a{
+    
+    color: black !important;
+    }
+
+
+/*social media styling*/
+.social a{
+    font-size: 1.5em;
+    padding: 0.5rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color:#55acee ;
+}
+.fa-youtube{
+    color: #cd201f;
+}
+.fa-instagram{
+    color: #3f729b;
+}
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-twitter:hover,
+.fa-facebook:hover
+{
+    color:maroon;
+}
+
+/*footer styling*/
+/* footer */
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    
+}
+
+footer a{
+    color: #d5d5d5;
+}
+
+hr.light-100{
+     border-top: 1px solid #d5d5d5;
+     width: 100%;
+     margin-top: 0.8rem;
+     margin-bottom: 1rem;
+     
+}
+
+.col-md-6 p{
+    padding: 1px;
+    margin:1px;
+    text-align: left;
+}
+.card-body{
+   background-color: #f7dcda;
+}
+.card-title{
+    text-align: center;
+}
+
+.carousel-inner img{
+    width: 100%;
+   
+    
+}
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit:cover;
+}
+
+
+@media (max-width: 576px) {
+    .card{
+        padding-top: 0.2rem;
+    }
+    .carousel-item {
+        height: 250px;
+    }
+
+    .carousel-item img {
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
